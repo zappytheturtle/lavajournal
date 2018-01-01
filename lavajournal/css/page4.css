@@ -1,0 +1,8 @@
+* {
+	color:green;
+}
+
+:not(.classy) {
+	color:red;
+}
+

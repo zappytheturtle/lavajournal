@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Chachee's Tutorials</title> 
+		<link rel="stylesheet" href="../css/page5.css" type="text/css">
+    </head>
+   
+    <body>
+		<div>
+			<p class="glassy">SO WE'RE A PARAGRAPH IN A DIV. THERE'S THIS THING CALLED WHERE YOU CAN DO LIKE "div > p" AND ANY PARAGRAPH THAT HAS A DIV AS A PARENT GETS TARGETED.</p>
+			<p class="classy">there's also this "+" thing. It's like "[#2] that follows [#1] gets styled" except it's formatted "[#1] + [#2]" In this example since our site is pretty easy you could just go "p + p" and every paragraph except the first woulda been selected, since it's the only paragraph that doesn't follow another paragraph.</p>
+			<p class="glassy"> if you have like a paragraph with the class "glassy" like this one, and have a paragraph that immediately follows it like the next one, you can do "p.glassy + p" and the paragraph after a paragraph with a class "glassy" will be styled. So long as they have the same parent. </p>		
+			<p class="classy">IF ALL THESE PARAGRAPHS HAD THE SAME CLASS, THEN ALL BUT THE FIRST PARAGRAPH WOULD HAVE BEEN STYLED THE SAME BECAUSE THEY ALL WOULD'VE BEEN FOLOWWING A PARAGRAPH WITH THE CLASS "GLASSY" EXCEPT THE FIRST WHICH WOULD'VE BEEN PRECEDED BY  NOTHING SINCE IT'S THE FIRST.</p>
+			<p class="classy">HOWEVER IF WE HAD USED "p.glassy ~ p" THEN THIS PARAGRAPH WOULD HAVE BEEN STYLED BY THAT RULE TOO! "~" MEANS "AFTER BUT NOT NECESSARILY IMMEDIATLY AFTER"</p>				
+			<p class="classy">AMAZING! GO TO <a href="page6.html">page 6</a></p>			
+		</div>
+
+    </body>
+
+
+</html>

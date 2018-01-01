@@ -1,0 +1,19 @@
+p.redfont {
+	color:red;
+}
+
+p[name="poop"] {
+	color:brown;
+}
+
+p[name^="my"] {
+	color:green;
+}
+
+p[name$="bakon"] {
+	color:blue;
+}
+
+p[name*="moom"]{
+	color:orange;
+}

@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+
+  background-color: #FF7F27;
+  padding: 0;
+  margin: 0;
+}
+
+.body, .body * {
+    box-sizing: border-box;
+  background-color: #FFC90E;
+
+}
+
+.body {
+  margin: auto;
+  width: 50em;
+  padding: 2em;
+}
+
+.navli, .header, .header  * {
+  background-color: #FFAEC9;
+}
+
+.header {
+  box-sizing: border-box;
+  height: 8em;
+  border: 0.3em solid #FF7F27;
+  border-radius: 1em;
+  padding: 0.25em 1.5em;
+  display: flex;
+  justify-content: space-between;
+
+
+
+}
+
+.header h1 {
+        box-sizing: border-box;
+    font-family: "Righteous";
+    color: #FF7F27;
+    font-size: 4em;
+    margin: auto;
+
+}
+
+.header h2 {
+        box-sizing: border-box;
+  text-align: center;
+  margin-left: .5em;
+    font-family: "Segoe ui black";
+    color: #00A2E8;
+    font-size: 1.8em;
+
+}
+
+nav {
+      box-sizing: border-box;
+  padding-top: 2em;
+  width: 50em;
+  margin: auto;
+
+}
+
+.navli {
+    box-sizing: border-box;
+display: inline;
+  font-family: "Segoe ui black";
+  text-align: center;
+  font-size: 2em;
+  color: #FF7F27;
+  list-style-type: none;
+  border: 0.2em solid #FF7F27;
+  border-radius: .8em;
+  padding: .25em 1em;
+  margin: 0 0.2em;
+
+
+}
